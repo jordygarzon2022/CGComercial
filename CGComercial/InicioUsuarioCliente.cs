@@ -27,8 +27,8 @@ namespace CGComercial
         private void btnUsuarioCliente_Click(object sender, EventArgs e)
         {
             FromRegistro fromRegistro = new FromRegistro();
+            this.Visible = false;
             fromRegistro.ShowDialog();
-            this.Close();
         }
 
         private void btnhombres_Click(object sender, EventArgs e)
